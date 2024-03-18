@@ -1,0 +1,62 @@
+@import '~/fonts/stylesheet.css';
+@import './colors.scss';
+
+body {
+  background: $primary-bg;
+  font-family: 'VCR';
+  text-transform: uppercase;
+  font-size: 16px;
+  color: $primary-fg;
+  box-sizing: border-box;
+}
+
+a {
+  color: $primary-link;
+  text-decoration: dotted underline;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+p,
+li {
+  line-height: 1.4rem;
+}
+
+blockquote {
+  position: relative;
+  &::before {
+    content: '>';
+    position: absolute;
+    top: 4px;
+    left: -15px;
+    color: $accent;
+  }
+}
+
+li {
+  list-style: circle;
+  &::marker {
+    font-size: 1.5rem;
+  }
+}
+
+code {
+  font-family: 'VCR';
+  background: $accent;
+  color: $secondary-fg;
+}
+
+hr {
+  margin: 20px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 2px dashed;
+}
+
+summary {
+  font-size: 1.5rem;
+  cursor: pointer;
+}

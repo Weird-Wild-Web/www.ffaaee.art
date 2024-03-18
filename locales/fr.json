@@ -1,0 +1,7 @@
+{
+  "hello": "Bonjour, {name}!",
+  "language": "Langue",
+  "menu": "Menu",
+  "main-menu": "---- Menu principal ----",
+  "noscreen": "La résolution de l'écran est trop petite"
+}
